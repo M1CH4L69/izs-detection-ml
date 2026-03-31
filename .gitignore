@@ -1,0 +1,8 @@
+# Složky s fotkami a daty (tyto nechceme nahrávat)
+stahnute_obrazky/
+annotations_combined/
+
+# Python cache a virtuální prostředí (standardně se ignoruje)
+__pycache__/
+venv/
+.venv/
