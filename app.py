@@ -12,7 +12,7 @@ st.set_page_config(
 @st.cache_resource
 def load_model():
     try:
-        return YOLO("best.pt")
+        return YOLO("models/izs_trained_model.pt")
     except:
         return YOLO("yolov8n.pt") 
 
